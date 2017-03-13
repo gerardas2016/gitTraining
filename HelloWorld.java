@@ -1,4 +1,7 @@
+
 import java.time.LocalDate;
+
+
 
 /**
  * @author zwaclaw, edited by Gerardas
@@ -7,16 +10,16 @@ import java.time.LocalDate;
 
 public class HelloWorld {
 	public static void main(String[] args) {
-		
+
+	LocalDate date = LocalDate.now();
 
 
+		Input input= new Input();
 
+		System.out.println("Iveskite varda");
+		String name=input.betkas();
+		System.out.println("Helo "+ name);
 
-
-
-
-
-LocalDate date = LocalDate.now();
-        System.out.println(date);
+		System.out.println(date);
 	}
 }
