@@ -1,13 +1,17 @@
-package firstlesson;
+
 
 /**
- * @author zwaclaw
+ * @author zwaclaw, edited by Gerardas
  *
  */
 
 public class HelloWorld {
 	public static void main(String[] args) {
-		System.out.println("HELLO UGLY WORLD!");
-		System.out.println("The World is not ugly!");
+		Input input= new Input();
+
+		System.out.println("Iveskite varda");
+		String name=input.betkas();
+		System.out.println("Helo "+ name);
+
 	}
 }
